@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 450px;
+    border: 2px solid;
+    margin: 30px auto;
+    background-color: rgba(206, 170, 13, 0.774);
+}
+
+.item {
+    border: 2px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: rgb(197, 78, 42);
+    font-family: cursive;
+}
+
+#fruits {
+    float: left;
+    width: 48%;
+}
+
+#computer {
+    clear: right;
+    float: left;
+    width: 48%;
+}
+
+#stationary {
+    /* float: left; */
+    clear: both;
+    width: 48%;
+}
+
+p,
+h1 {
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align: center; */
+    text-align: justify;
+}

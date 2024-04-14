@@ -1,0 +1,7 @@
+p{
+    font-family: sans-serif;
+    font-size: 115px;    
+    /* 1px=1/96th of inch  */
+    line-height:1.3em; 
+    font-weight: bold;
+}

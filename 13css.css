@@ -1,0 +1,19 @@
+.box{
+    width:170px;
+    height: 170px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: green;
+}
+#box2{
+    display:none;
+    background-color: red;
+    /* visibility: visible; */
+}
+#box3{
+    background-color: blue;
+}
+#box4{
+    background-color: yellow;
+}

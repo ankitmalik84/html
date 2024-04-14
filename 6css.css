@@ -1,0 +1,26 @@
+#firstpara{
+    background-color: red;
+    height:50px;
+    width:420px;
+    border:2px solid blue;
+    border-color:green;
+    border-radius:6px;
+}
+#secondpara{
+    background-color: hotpink;
+    border-top: 3px solid blue;
+    border-bottom: 5px solid red;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 18px;
+    height: 35px;
+    width: 355px;
+}
+
+#thirdpara{
+    height: 500px;
+    width:950px;
+    border:2px solid red;
+    background-image: url("E:\website making\Coventic Webpage images\background.png");
+    background-repeat:no-repeat; /* repeat x and repeat y will make it repeat on x and y axis*/
+    background-position:center top;
+}

@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.h {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background: #eff4fd; */
+  position: relative;
+}
+body {
+  background-image: url(img/images.jpg);
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  /*background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;*/
+}
+section .wave {
+  position: absolute;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  background: url(wave.png);
+  animation: animate 10% linear infinite;
+}
+.logo {
+  border: 0.5px solid;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-radius: 20px;
+  height: 45px;
+}
+.welcome {
+  margin-left: -25%;
+  margin-top: 1%;
+}
+nav {
+  display: flex;
+  width: 100%;
+  margin-right: 0%;
+  margin: auto;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: red;
+}
+.d {
+  margin-left: 8%;
+  margin-top: 15%;
+}
+.d h1 {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 20px;
+}
+span {
+  color: orange;
+}
+.d p {
+  color: green;
+  line-height: 22px;
+}
+.images {
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+.images img {
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape {
+  bottom: 40px;
+}
+.images:hover .boy {
+  left: 55%;
+}
+.social {
+  margin-left: 9%;
+  margin-top: 100px;
+}
+.social a {
+  font-size: 30px;
+  color: black;
+  margin-right: 20px;
+}
+.social a:hover {
+  color: orange;
+}

@@ -1,0 +1,14 @@
+#para{
+    color:lightcoral;
+    border:1px solid green;
+    border-width: 10px;
+    outline-color: aqua;
+    outline-width: 5px;
+    
+}
+/*
+this is comment in css................
+*/
+span,footer{
+    background-color: pink;
+}

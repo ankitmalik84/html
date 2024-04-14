@@ -1,0 +1,43 @@
+.container{
+    border: 2px solid red;
+    background-color: antiquewhite;
+    padding: 30px;
+    margin: 20px auto;
+}
+.btn{
+    background-color: aqua;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    /* color:rgba(173, 14, 14, 0.678); */
+    background-color:aquamarine;
+    border: 2px solid ;
+}
+a:visited{
+     background-color: yellowgreen; 
+}
+a:active{
+    background-color: blue;
+}
+
+.btn:hover{
+    /* color:rgba(173, 14, 14, 0.678); */
+    background-color:rgb(15, 170, 119);
+    border: 2px solid ;
+}
+.btn:visited{
+     background-color: yellowgreen; 
+}
+.btn:active{
+    background-color: rgb(48, 48, 150);
+}
